@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="Width=device-width,
+    initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet"href="css/dashboard.css">
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <h2>CMS</h2>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="create-post.html">Create Post</a>
+            <a href="index.html">View Blog</a>
+            <button id="logoutBtn">Logout</button>
+        </aside>
+        <main class="main-content">
+            <div class="stats">
+                <div class="card">
+                    <h3>Total Posts</h3>
+                    <p id="totalPosts">0</p>
+                </div>
+                <div class="card">
+                    <h3>Total Users</h3>
+                    <p id="totalUsers">0</p>
+                </div>
+            </div>
+            <div class="posts-section">
+                <h2>All Posts</h2>
+                <div id="dashboardPosts"></div>
+            </div>
+        </main>
+    </div>
+    <script type="module"src="js/dashboard.js"></script>
+</body>
+</html>

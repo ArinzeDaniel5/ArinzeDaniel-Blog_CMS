@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="Width=device-width,
+    initial-scale=1.0">
+    <title>Create Post</title>
+    <link rel="stylesheet"href="css/dashboard.css">
+</head>
+<body>
+    <div class="editor-page">
+        <form id="postForm"class="editor-form">
+            <h2>Create Blog Post</h2>
+            <input type="text"id="title"placeholder="Post Title"required >
+            <input type="text"id="category"placeholder="Category"required>
+            <input type="url"id="image"placeholder="Featured Image URL"required>
+            <textarea id="content"rows="12"placeholder="Write your post here..."required></textarea>
+            <button type="submit">Publish Post</button>
+        </form>
+    </div>
+    <script type="module"src="js/createPost.js"></script>
+</body>
+</html>
